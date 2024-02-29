@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Dashboard Questions</h1>
+    <table border="1"  width="50%" >
+        <tr>
+            <th>Name</th>
+            <th colspan="2">College</th> 
+         </tr>
+        <tr>
+            <td>Nishtha</td>
+            <td>IMT</td>
+            <td>SMIT</td>
+        </tr>
+        
+    </table>
+    
+    &nbsp;&nbsp;
+    <table  border="1"  width="50%"  >
+        <tr>
+           <th> Name</th>
+           <th>Class</th>
+        </tr>
+        <tr>
+           <td rowspan="2">Nishtha</td>
+           <td>IMT</td> 
+        </tr>
+        <td>SMIT</td>
+        
+    </table>
+
+    <h2>Nested table</h2>
+    <table border="1" width="50%">
+        <tr>
+            <td>Name</td>
+            <td>College
+                <table  border="1" width="100%">
+                    <tr>
+                        <td>IMT</td>
+                        </tr>
+                        <tr>
+                            <td>SMIT</td>
+                        </tr>
+                        <tr>
+                            <td>NIU</td>
+                        </tr>
+                       
+                        <td>JL bajaj</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    
+<table border="1" width="50%">
+    <tr>
+      <td>Cell</td>
+      <td>Nested Table
+        <table border="1" width="50%">
+          <tr>
+            <td>Cell 1</td>
+          </tr>
+          <tr>
+            <td>Cell 2</td>
+          </tr>
+          <tr>
+            <td>Cell 3</td>
+          </tr>
+          <tr>
+            <td>Cell 4</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+    <form>
+        <label for="Fname">Enter your name</label><br>
+        <input type="text" placeholder="enteryour name" id="name" name="Fname"><br>
+        <label for="lname">Enter your last name</label><br>
+        <input type="text" name="lname" id="name" placeholder="Enter your last name"><br>
+        <label for="pass">Enter your Pasword</label><br>
+        <input type="password" id="password" name="pass"><br>
+        Games<br>
+        <label for="cricket">Cricket</label>
+        <input type="radio" value="cricket" name="games" ><br>
+        <label for="hockey">hockey</label>
+        <input type="radio" value="hockey" name="games" id="hockey"><br>
+        <label for="polo">polo</label>
+        <input type="radio" value="polo" name="games" id="polo"><br>
+        Enter Fruits Name
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple" name="fruits" value="apple"><br>
+        <label for="mango">Mnago</label>
+        <input type="checkbox" id="mango" name="fruits" value="mango"><br>
+        <label for="guava">Guava</label>
+        <input type="checkbox" id="guava" name="fruits" value="guava"><br>
+        <button>Submit</button>
+        <button>Reset</button>
+
+    </form>
+    <script src="/index2.js"></script>
+</body>
+</html>
